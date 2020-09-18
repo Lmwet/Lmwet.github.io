@@ -3,6 +3,7 @@
     "name": "Lmwet",
     "version": "0.1.0",
     "homepage": "https://lmwet.github.io/",
+    "start_url": "/",
     "icons": [
         {
             "src": "favicon.ico",
