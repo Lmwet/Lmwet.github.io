@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Audrey";
+    src: url("../fonts/Audrey-Medium.otf");
+}
+* {
+    font-family: "Audrey";
+    font-size: 16;
+}
+
+body {
+    padding-top: 50px; /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+    background-color: #bd4f6c;
+    background-image: linear-gradient(326deg, #bd4f6c 0%, #d7816a 74%);
+}
+
+a {
+    color: rgb(214, 214, 214);
+}
+
+.navbar-inverse .navbar-brand {
+    color: #bd4f6c;
+    /* font-size: 2em; */
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: rgb(214, 214, 214);
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.footer-blurb {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #4834d4;
+    background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+}
+
+.footer-blurb h3 {
+    color: midnightblue;
+}
+
+.footer-blurb-item {
+    padding: 30px 0;
+}
+
+.copyright {
+    background-color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
