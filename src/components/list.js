@@ -8,7 +8,7 @@ export default class List extends Component {
                 <div className="row">
                     <div className="col-lg-12">
                         <h1 className="page-header">Web & Design</h1>
-                        <small>Full Stack Developper and Illustrator</small>
+                        <span>Full Stack Developper and Illustrator</span>
                     </div>
                 </div>
             </div>

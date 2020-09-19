@@ -9,12 +9,12 @@ export default class Experience extends Component {
                         <div className="col-sm-4 footer-blurb-item">
                             <img
                                 className="img-circle"
-                                src="http://lorempixel.com/100/100/people/3"
+                                src="/images/lmwet.png"
                                 alt=""
                                 width={100}
                                 height={100}
                             />
-                            <h3>My Stuff</h3>
+                            <h3>Lmwet on Github</h3>
                             <p>
                                 Upon yielding, kind sea subdue very seed sixth
                                 them lesser one lesser there earth days were
@@ -24,21 +24,21 @@ export default class Experience extends Component {
                             <p>
                                 <a
                                     className="btn btn-primary"
-                                    href="http://lorempixel.com/100/100/people/3"
+                                    href="/images/webEye.png"
                                 >
-                                    More Stuff
+                                    Search
                                 </a>
                             </p>
                         </div>
                         <div className="col-sm-4 footer-blurb-item">
                             <img
                                 className="img-circle"
-                                src="http://lorempixel.com/100/100/people/1"
+                                src="/images/mewsPF.png"
                                 alt=""
                                 width={100}
                                 height={100}
                             />
-                            <h3>Your Stuff</h3>
+                            <h3>Luezley Sol</h3>
                             <p>
                                 Upon yielding, kind sea subdue very seed sixth
                                 them lesser one lesser there earth days were
@@ -48,21 +48,21 @@ export default class Experience extends Component {
                             <p>
                                 <a
                                     className="btn btn-primary"
-                                    href="http://lorempixel.com/100/100/people/3"
+                                    href="/images/webEye.png"
                                 >
-                                    More Stuff
+                                    Juckl
                                 </a>
                             </p>
                         </div>
                         <div className="col-sm-4 footer-blurb-item">
                             <img
                                 className="img-circle"
-                                src="http://lorempixel.com/100/100/people/2"
+                                src="/images/webEye.png"
                                 alt=""
                                 width={100}
                                 height={100}
                             />
-                            <h3>Our Stuff</h3>
+                            <h3>Amanda Priebe</h3>
                             <p>
                                 Upon yielding, kind sea subdue very seed sixth
                                 them lesser one lesser there earth days were
@@ -72,7 +72,7 @@ export default class Experience extends Component {
                             <p>
                                 <a
                                     className="btn btn-primary"
-                                    href="http://lorempixel.com/100/100/people/3"
+                                    href="/images/lmwet.png"
                                 >
                                     More Stuff
                                 </a>
