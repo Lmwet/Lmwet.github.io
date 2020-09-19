@@ -4,13 +4,6 @@
     "version": "0.1.0",
     "homepage": "https://lmwet.github.io/",
     "start_url": "/",
-    "icons": [
-        {
-            "src": "favicon.ico",
-            "sizes": "64x64 32x32 24x24 16x16",
-            "type": "image/x-icon"
-        }
-    ],
     "dependencies": {
         "gh-pages": "^2.0.1",
         "react": "^16.8.3",
