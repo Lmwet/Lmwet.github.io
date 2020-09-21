@@ -5,7 +5,7 @@ export default function Row4() {
     const content = {
         sectionTitle: "PHP Projects",
         titleLeft: "Fairyfiles",
-        imageLeft: "/images/round logo.png",
+        imageLeft: "/images/ff.png",
         altLeft: "Fairyfiles-logo",
         textLeft:
             "Presentation ?? Profile stuff ... Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so",

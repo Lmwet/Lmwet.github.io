@@ -2,12 +2,13 @@ import React from "react";
 
 export default function Projectrow({ content }) {
     return (
-        <div id={content.titleLeft} className="container">
+        <div id={content.altLeft} className="container">
             <div className="row">
                 <h2>{content.sectionTitle}</h2>
                 <div className="col-md-6 portfolio-item">
                     <a href={content.urlLeft}>
                         <img
+                            id={content.altLeft}
                             className="img-responsive"
                             src={content.imageLeft}
                             alt={content.altLeft}

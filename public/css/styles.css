@@ -9,12 +9,21 @@
 
 body {
     padding-top: 50px; /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
-    background-color: #bd4f6c;
-    background-image: linear-gradient(326deg, #bd4f6c 0%, #d7816a 74%);
+    /* background-color: #f1dfd1;
+    background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%); */
+    /* background-color: #efecec;
+    background-image: linear-gradient(315deg, #efecec 0%, #f9aba4 74%); */
+    background-color: #fff293;
+    background-image: linear-gradient(315deg, #fff293 0%, #ffe884 74%);
 }
 
 a {
-    color: rgb(214, 214, 214);
+    color: #bd4f6c;
+}
+
+h2 {
+    margin-top: 10vh;
+    text-transform: uppercase;
 }
 
 .navbar-inverse .navbar-brand {
@@ -27,7 +36,21 @@ a {
 }
 
 .portfolio-item {
-    margin-bottom: 25px;
+    margin-bottom: 5vh;
+    min-width: 25vw;
+    min-height: 70vh;
+}
+
+.img-responsive {
+    min-height: 40vh;
+    padding-bottom: 10vh;
+    /* margin: 20px; */
+    border-bottom: 3px black solid;
+}
+
+#lmwet {
+    background-color: transparent;
+    border-bottom: none;
 }
 
 .footer-blurb {
