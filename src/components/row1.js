@@ -8,13 +8,13 @@ export default function Row1() {
         imageLeft: "/images/lmwet.png",
         altLeft: "lmwet",
         textLeft:
-            "Presentation ?? Profile stuff ... Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so",
+            "A coding seagal. A full stack web-developper. German, English, French (mother tongue), Spanish, Arabic. React - Node - SQL - PHP - ProcessWire. An eye for design. A drawing hand.",
         urlLeft: "https://github.com/lmwet/",
         titleRight: "",
         imageRight: "",
         altRight: "",
         textRight: "",
-        urlRight: "https://littlesimz.co/",
+        urlRight: "",
     };
 
     return <Projectrow content={content}></Projectrow>;

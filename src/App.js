@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import Nav from "./components/nav";
 import Experience from "./components/experience";
 import Contact from "./components/contact";

@@ -24,11 +24,7 @@ export default class Nav extends Component {
                                 <span className="icon-bar" />
                                 <span className="icon-bar" />
                             </button>
-                            <Link
-                                to="/"
-                                className="navbar-brand"
-                                href="https://lmwet.github.io/"
-                            >
+                            <Link to="/" className="navbar-brand">
                                 Lmwet
                             </Link>
                         </div>
