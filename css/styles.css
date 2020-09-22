@@ -4,7 +4,7 @@
 }
 * {
     font-family: "Audrey";
-    font-size: 16;
+    font-size: 19px;
 }
 
 body {
@@ -17,18 +17,24 @@ body {
     background-image: linear-gradient(315deg, #fff293 0%, #ffe884 74%);
 }
 
-a {
+a link {
     color: #bd4f6c;
+    cursor: pointer;
+    font-size: 2em;
 }
 
 h2 {
+    font-size: 3em;
     margin-top: 10vh;
     text-transform: uppercase;
 }
 
+h3 {
+    font-size: 2em;
+}
+
 .navbar-inverse .navbar-brand {
     color: #bd4f6c;
-    /* font-size: 2em; */
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -44,8 +50,11 @@ h2 {
 .img-responsive {
     min-height: 40vh;
     padding-bottom: 10vh;
-    /* margin: 20px; */
     border-bottom: 3px black solid;
+}
+
+.white-space {
+    height: 10vh;
 }
 
 #lmwet {
