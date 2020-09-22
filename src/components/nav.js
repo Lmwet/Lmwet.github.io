@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class Nav extends Component {
     render() {
@@ -23,13 +24,13 @@ export default class Nav extends Component {
                                 <span className="icon-bar" />
                                 <span className="icon-bar" />
                             </button>
-                            <a
+                            <Link
+                                to="/"
                                 className="navbar-brand"
                                 href="https://lmwet.github.io/"
                             >
-                                <span className="glyphicon" />
                                 Lmwet
-                            </a>
+                            </Link>
                         </div>
                         {/* Navbar links */}
                         <div
@@ -38,26 +39,15 @@ export default class Nav extends Component {
                         >
                             <ul className="nav navbar-nav">
                                 <li>
-                                    <a href="http://lorempixel.com/700/400/nature/1">
-                                        Services
-                                    </a>
+                                    <Link to="/services">Services</Link>
                                 </li>
                                 <li className="nav navbar-nav">
-                                    <a href="http://lorempixel.com/700/400/nature/1">
-                                        Print Design
-                                    </a>
-                                </li>
-                                <li className="nav navbar-nav">
-                                    <a href="http://lorempixel.com/700/400/nature/1">
-                                        Collaborations
-                                    </a>
+                                    <Link to="/print">Print Design</Link>
                                 </li>
                             </ul>
                             <ul className="nav navbar-nav navbar-right">
                                 <li>
-                                    <a href="http://lorempixel.com/700/400/nature/1">
-                                        Contact
-                                    </a>
+                                    <Link to="/contact">Contact</Link>
                                 </li>
                             </ul>
                         </div>

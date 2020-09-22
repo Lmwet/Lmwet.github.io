@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Nav from "./components/nav";
 import Experience from "./components/experience";
@@ -15,7 +14,7 @@ function App() {
     return (
         <div id="colorlib-page">
             <div id="container-wrap">
-                <Nav>{logo}</Nav>
+                <Nav></Nav>
                 <List></List>
                 <div id="colorlib-main">
                     <Row1></Row1>
