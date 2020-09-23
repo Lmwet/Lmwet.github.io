@@ -1,7 +1,6 @@
 import React from "react";
 import Nav from "./components/nav";
 import Experience from "./components/experience";
-import Contact from "./components/contact";
 import List from "./components/list";
 import Row1 from "./components/row1";
 import Row2 from "./components/row2";
@@ -22,7 +21,6 @@ function App() {
                     <Row4></Row4>
                     <Row5></Row5>
                     <Experience></Experience>
-                    <Contact></Contact>
                 </div>
             </div>
         </div>

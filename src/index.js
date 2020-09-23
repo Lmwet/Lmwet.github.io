@@ -19,6 +19,7 @@ ReactDOM.render(
                 <Route exact path="/print" component={Print} />
             </React.StrictMode>
         </Switch>
+        <Contact></Contact>
     </HashRouter>,
 
     document.getElementById("root")

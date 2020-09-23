@@ -5,6 +5,7 @@ export default class Experience extends Component {
         return (
             <div className="footer-blurb">
                 <div className="container">
+                    <h1 className="page-header">Best friends in arts</h1>
                     <div className="row">
                         <div className="col-sm-4 footer-blurb-item">
                             <img
@@ -14,7 +15,7 @@ export default class Experience extends Component {
                                 width={100}
                                 height={100}
                             />
-                            <h3>Lmwet on Github</h3>
+                            <h3>Juckl</h3>
                             <p>
                                 Upon yielding, kind sea subdue very seed sixth
                                 them lesser one lesser there earth days were
@@ -26,7 +27,7 @@ export default class Experience extends Component {
                                     className="btn btn-primary"
                                     href="/images/webEye.png"
                                 >
-                                    Search
+                                    Contact
                                 </a>
                             </p>
                         </div>
@@ -50,7 +51,7 @@ export default class Experience extends Component {
                                     className="btn btn-primary"
                                     href="/images/webEye.png"
                                 >
-                                    Juckl
+                                    Contact
                                 </a>
                             </p>
                         </div>
@@ -72,9 +73,9 @@ export default class Experience extends Component {
                             <p>
                                 <a
                                     className="btn btn-primary"
-                                    href="/images/lmwet.png"
+                                    href="https://www.amandapriebe.com/"
                                 >
-                                    More Stuff
+                                    More
                                 </a>
                             </p>
                         </div>
