@@ -8,11 +8,7 @@
 }
 
 body {
-    padding-top: 50px; /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
-    /* background-color: #f1dfd1;
-    background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%); */
-    /* background-color: #efecec;
-    background-image: linear-gradient(315deg, #efecec 0%, #f9aba4 74%); */
+    padding-top: 50px;
     background-color: #fff293;
     background-image: linear-gradient(315deg, #fff293 0%, #ffe884 74%);
 }
@@ -24,13 +20,17 @@ a link {
 }
 
 h2 {
-    font-size: 3em;
+    font-size: 2em;
     margin-top: 10vh;
     text-transform: uppercase;
 }
 
 h3 {
     font-size: 2em;
+}
+
+li {
+    list-style: none;
 }
 
 .navbar-inverse .navbar-brand {
@@ -62,11 +62,21 @@ h3 {
     border-bottom: none;
 }
 
+.cv-title {
+    margin-left: 40;
+}
+
+.word {
+    padding: 2%;
+    font-size: 4em;
+    color: midnightblue;
+}
+
 .footer-blurb {
     padding: 30px 0;
     text-align: center;
-    background-color: #4834d4;
-    background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+    background-color: #fff293;
+    background-image: linear-gradient(315deg, #fff293 0%, #ffe884 74%);
 }
 
 .footer-blurb h3 {
