@@ -7,8 +7,7 @@ export default function Row5() {
         titleLeft: "The Irksome Institute",
         imageLeft: "/images/ii.png",
         altLeft: "irksome",
-        textLeft:
-            "Presentation ?? Profile stuff ... Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so",
+        textLeft: "An entirely hand-coded project. Tag by tag, rule by rule.",
         urlLeft: "https://theirksome.de/",
         titleRight: "",
         imageRight: "",

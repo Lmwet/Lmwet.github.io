@@ -8,13 +8,13 @@ export default function Row3() {
         imageLeft: "/images/boom.png",
         altLeft: "Scratch",
         textLeft:
-            "Presentation ?? Profile stuff ... Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so",
+            "A single page app in View & AWS to upload your drawings, let your friends upload theirs and comment on them!",
         urlLeft: "http://scratzch.herokuapp.com/",
         titleRight: "A Petition App for East River Park",
         imageRight: "/images/EastRiverPark.png",
         altRight: "",
         textRight:
-            "Presentation ?? Profile stuff ... Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so",
+            "A petition app in handlebars. Create an account, signe, add info to profile, unsigne the petition.",
         urlRight: "http://petition-east-river-park-lmwet.herokuapp.com/",
     };
 

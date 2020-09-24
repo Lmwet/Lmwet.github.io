@@ -1,26 +1,18 @@
 import React from "react";
-import Nav from "./components/nav";
-import Experience from "./components/experience";
+import Friends from "./components/friends";
 import List from "./components/list";
-import Row1 from "./components/row1";
-import Row2 from "./components/row2";
-import Row3 from "./components/row3";
-import Row4 from "./components/row4";
-import Row5 from "./components/row5";
+import Lmwet from "./components/lmwet";
+import Projects from "./components/projects";
 
 function App() {
     return (
         <div id="colorlib-page">
             <div id="container-wrap">
-                <Nav></Nav>
                 <List></List>
                 <div id="colorlib-main">
-                    <Row1></Row1>
-                    <Row2></Row2>
-                    <Row3></Row3>
-                    <Row4></Row4>
-                    <Row5></Row5>
-                    <Experience></Experience>
+                    <Lmwet></Lmwet>
+                    <Projects></Projects>
+                    <Friends></Friends>
                 </div>
             </div>
         </div>

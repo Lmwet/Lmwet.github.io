@@ -38,6 +38,9 @@ export default class Nav extends Component {
                                     <Link to="/services">Services</Link>
                                 </li>
                                 <li className="nav navbar-nav">
+                                    <Link to="/projects">Projects</Link>
+                                </li>
+                                <li className="nav navbar-nav">
                                     <Link to="/print">Print Design</Link>
                                 </li>
                             </ul>

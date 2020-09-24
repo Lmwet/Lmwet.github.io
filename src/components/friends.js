@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class Experience extends Component {
+export default class Friends extends Component {
     render() {
         return (
             <div className="footer-blurb">
@@ -80,7 +80,6 @@ export default class Experience extends Component {
                             </p>
                         </div>
                     </div>
-                    {/* /.row */}
                 </div>
             </div>
         );
