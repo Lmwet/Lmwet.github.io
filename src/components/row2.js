@@ -3,7 +3,7 @@ import Projectrow from "./projectrow";
 
 export default function Row2() {
     const content = {
-        sectionTitle: "React Projects",
+        sectionTitle: "React",
         titleLeft: "Mews",
         imageLeft: "/images/mewsPF.png",
         altLeft: "Mews",

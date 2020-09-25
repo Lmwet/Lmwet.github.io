@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Projectrow({ content }) {
     return (
-        <div id={content.altLeft} className="container">
+        <div id={content.sectionTitle} className="container">
             <div className="row">
                 <h2>{content.sectionTitle}</h2>
                 <div className="col-md-6 portfolio-item">

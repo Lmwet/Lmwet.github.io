@@ -19,31 +19,10 @@ export default function Lmwet() {
     };
 
     return (
-        <React.Fragment className="skills">
+        <React.Fragment>
             {/* Seagull */}
             <Parallax className="lmwet" x={[-50, 70]} tagOuter="figure">
                 <Projectrow content={content}></Projectrow>
-            </Parallax>
-            {/* Languages */}
-            <Parallax className="cv-title" x={[12, 12]} tagOuter="figure">
-                <h3 className="cv-title" x={40}>
-                    Languages
-                </h3>
-            </Parallax>
-            <Parallax className="word" x={[-10, 100]} tagOuter="figure">
-                <p>German</p>
-            </Parallax>
-
-            <Parallax className="word" x={[20, 90]} tagOuter="figure">
-                <p>French</p>
-            </Parallax>
-
-            <Parallax className="word" x={[-20, 60]} tagOuter="figure">
-                <p>Spanish</p>
-            </Parallax>
-
-            <Parallax className="word" x={[-10, 50]} tagOuter="figure">
-                <p>عَرَبِيّ‎</p>
             </Parallax>
 
             {/* Dev */}
@@ -51,30 +30,90 @@ export default function Lmwet() {
                 <h3 className="cv-title" x={40}>
                     Full Stack Web Developpement
                 </h3>
-                <Link to="/services"> A coding Seagull</Link>
-            </Parallax>
-            <Parallax x={[-20, 40]} tagOuter="figure">
-                <p className="word">React</p>
+                <Link to="/services"> See all services</Link>
+                <div className="skills">
+                    <ul className="dev">
+                        <Link to="/projects">
+                            {" "}
+                            <li className="word">
+                                React <span>Hooks Router Redux</span>
+                            </li>
+                        </Link>
+                        <li className="word">Node JS </li>
+                        <Link to="/projects">
+                            <li className="word2">View JS</li>
+                        </Link>
+                        <Link to="/projects">
+                            <li className="word2">ProcessWire CMS</li>
+                        </Link>
+                        <li className="word">Postres SQL</li>
+                        <li className="word2">VANILLA JS</li>
+                        <Link to="/projects">
+                            <li className="word">Handlebars</li>
+                        </Link>
+                        <li className="word2">JQuery</li>
+                    </ul>
+                    <div className="white-space"></div>
+                </div>
             </Parallax>
 
-            <Parallax className="word" x={[20, 70]} tagOuter="figure">
-                <p>View</p>
+            {/* Languages */}
+            <Parallax className="cv-title" x={[12, 12]} tagOuter="figure">
+                <div className="languages">
+                    <div className="white-space"></div>
+                    <h3 className="cv-title" x={40}>
+                        Languages
+                    </h3>
+                    <ul className="languages">
+                        <li>German (fluent)</li>
+                        <li>English (fluent)</li>
+                        <li>French (mother tongue)</li>
+                        <li>Spanish (fluent)</li>
+                        <li>
+                            عَرَبِيّ‎ (Arabic, basics of lavantin dialect,
+                            reading, writing)
+                        </li>
+                    </ul>
+                </div>
             </Parallax>
 
-            <Parallax x={[10, 70]} tagOuter="figure">
-                <p className="word">Node</p>
-            </Parallax>
+            {/* Skills */}
+            <Parallax className="cv-title" x={[12, 12]} tagOuter="figure">
+                <div className="languages">
+                    <div className="white-space"></div>
+                    <h3 className="cv-title" x={40}>
+                        Other important Lmwet skills...
+                    </h3>
+                    <ul className="soft">
+                        <li>Project management // Team work</li>
+                        <img
+                            className="img-circle"
+                            src="/images/manitas.png"
+                            alt=""
+                            width={300}
+                            height={200}
+                        />
+                        <li>Translation & Language pedagogy</li>
+                        <img
+                            className="img-circle"
+                            src="/images/trad.png"
+                            alt=""
+                            width={200}
+                            height={200}
+                        />
 
-            <Parallax className="word" x={[-5, 70]} tagOuter="figure">
-                <p>ProcessWire CMS</p>
-            </Parallax>
-            <Parallax x={[-5, 70]} tagOuter="figure">
-                <p className="word">Postres SQL</p>
-            </Parallax>
-
-            <Parallax className="word" x={[-10, 50]} tagOuter="figure">
-                <p>VANILLA JS</p>
-                <p>JQuery</p>
+                        <li>Accordion</li>
+                        <img
+                            className="img-circle"
+                            src="/images/bb.png"
+                            alt=""
+                            width={200}
+                            height={200}
+                        />
+                    </ul>
+                    <div className="white-space"></div>
+                    <div className="white-space"></div>
+                </div>
             </Parallax>
         </React.Fragment>
     );

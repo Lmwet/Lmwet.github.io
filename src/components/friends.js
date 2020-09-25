@@ -10,7 +10,7 @@ export default class Friends extends Component {
                         <div className="col-sm-4 footer-blurb-item">
                             <img
                                 className="img-circle"
-                                src="/images/lmwet.png"
+                                src="/images/juckl.jpeg"
                                 alt=""
                                 width={100}
                                 height={100}
@@ -24,7 +24,7 @@ export default class Friends extends Component {
                             </p>
                             <p>
                                 <a
-                                    className="btn btn-primary"
+                                    className="btn btn-primary knopf"
                                     href="/images/webEye.png"
                                 >
                                     Contact
@@ -34,7 +34,7 @@ export default class Friends extends Component {
                         <div className="col-sm-4 footer-blurb-item">
                             <img
                                 className="img-circle"
-                                src="/images/mewsPF.png"
+                                src="/images/lou.png"
                                 alt=""
                                 width={100}
                                 height={100}
@@ -48,7 +48,7 @@ export default class Friends extends Component {
                             </p>
                             <p>
                                 <a
-                                    className="btn btn-primary"
+                                    className="btn btn-primary knopf"
                                     href="/images/webEye.png"
                                 >
                                     Contact
@@ -58,7 +58,7 @@ export default class Friends extends Component {
                         <div className="col-sm-4 footer-blurb-item">
                             <img
                                 className="img-circle"
-                                src="/images/webEye.png"
+                                src="/images/amanda.jpeg"
                                 alt=""
                                 width={100}
                                 height={100}
@@ -72,7 +72,7 @@ export default class Friends extends Component {
                             </p>
                             <p>
                                 <a
-                                    className="btn btn-primary"
+                                    className="btn btn-primary knopf"
                                     href="https://www.amandapriebe.com/"
                                 >
                                     More

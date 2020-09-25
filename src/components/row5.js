@@ -6,7 +6,7 @@ export default function Row5() {
         sectionTitle: "HTML CSS JS",
         titleLeft: "The Irksome Institute",
         imageLeft: "/images/ii.png",
-        altLeft: "irksome",
+        altLeft: "the-irksome",
         textLeft: "An entirely hand-coded project. Tag by tag, rule by rule.",
         urlLeft: "https://theirksome.de/",
         titleRight: "",
@@ -16,5 +16,11 @@ export default function Row5() {
         urlRight: "",
     };
 
-    return <Projectrow content={content}></Projectrow>;
+    return (
+        <React.Fragment>
+            <Projectrow content={content}></Projectrow>
+            <div className="white-space"></div>
+            <div className="white-space"></div>
+        </React.Fragment>
+    );
 }

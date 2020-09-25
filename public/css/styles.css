@@ -14,7 +14,6 @@ body {
 }
 
 a link {
-    color: #bd4f6c;
     cursor: pointer;
     font-size: 2em;
 }
@@ -34,7 +33,7 @@ li {
 }
 
 .navbar-inverse .navbar-brand {
-    color: #bd4f6c;
+    color: rgba(160, 225, 255, 0.651);
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -66,17 +65,73 @@ li {
     margin-left: 40;
 }
 
+.dev {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 80vw;
+    min-height: 100vh;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 80vw;
+    background-image: url(../images/steps.png);
+    background-position: 75% 65%;
+    background-size: 200vh;
+}
+
+.soft {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
 .word {
-    padding: 2%;
-    font-size: 4em;
-    color: midnightblue;
+    padding: 1em 1em;
+    font-size: 2em;
+    flex-wrap: wrap;
+    color: black;
+    border: black dashed 4px;
+    background-color: rgba(239, 242, 250, 0.651);
+    border-radius: 20%;
+    margin: 2%;
+}
+
+.word2 {
+    padding: 1em 1em;
+    font-size: 2em;
+    color: black;
+    /* background-color: rgba(160, 225, 255, 0.651); */
+    border: black dashed 4px;
+    border-radius: 20%;
+    margin: 2%;
+}
+
+.languages {
+    background-image: url(../images/schmutz.png);
+}
+
+ul.languages > li {
+    padding: 1%;
+    font-size: 1.1em;
 }
 
 .footer-blurb {
     padding: 30px 0;
     text-align: center;
-    background-color: #fff293;
-    background-image: linear-gradient(315deg, #fff293 0%, #ffe884 74%);
+    background-color: rgba(160, 225, 255, 0.651);
+    /* background-image: url(../images/ink.png); */
+    background-image: url(../images/schmutz.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.knopf {
+    background-color: black;
+    color: #eee;
 }
 
 .footer-blurb h3 {
