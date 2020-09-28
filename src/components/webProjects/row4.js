@@ -1,5 +1,5 @@
 import React from "react";
-import Projectrow from "./projectrow";
+import Projectrow from "../projectrow";
 
 export default function Row4() {
     const content = {

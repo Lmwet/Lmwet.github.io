@@ -1,8 +1,8 @@
 import React from "react";
-import Row2 from "./row2";
-import Row3 from "./row3";
-import Row4 from "./row4";
-import Row5 from "./row5";
+import Row2 from "./webProjects/row2";
+import Row3 from "./webProjects/row3";
+import Row4 from "./webProjects/row4";
+import Row5 from "./webProjects/row5";
 
 export default function Project() {
     return (

@@ -1,17 +1,18 @@
 import React from "react";
+import RowA from "./printDesign/rowA";
+// import RowB from "./printDesign/rowB";
+// import RowC from "./printDesign/rowC";
+// import RowD from "./printDesign/rowD";
 
 export default function Print() {
     return (
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-12">
-                    <h1 className="page-header">Print Design Portfolio</h1>
-
-                    <h3 className="services-item">Flyer and poster layout</h3>
-                    <h3 className="services-item">Illustration</h3>
-                    <h3 className="services-item">Logo Design</h3>
-                </div>
-            </div>
-        </div>
+        <React.Fragment>
+            <RowA></RowA>
+        </React.Fragment>
     );
+}
+{
+    /* <RowB></RowB>
+        <RowC></RowC>
+        <RowD></RowD> */
 }

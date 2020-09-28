@@ -79,6 +79,7 @@ li {
     flex-direction: row;
     max-width: 80vw;
     background-image: url(../images/steps.png);
+    background-repeat: no-repeat;
     background-position: 75% 65%;
     background-size: 200vh;
 }
