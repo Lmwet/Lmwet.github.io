@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class Friends extends Component {
     render() {
@@ -16,16 +17,17 @@ export default class Friends extends Component {
                                 height={100}
                             />
                             <h3>Juckl</h3>
-                            <p>
-                                Upon yielding, kind sea subdue very seed sixth
-                                them lesser one lesser there earth days were
-                                multiply so sixth gathering fifth that man fowl
-                                made.
+                            <p className="friend-text">
+                                Julia Entner is a critical visual artist that
+                                makes the most stunning water color paintings
+                                ever seen and empowered me into drawing. Contact
+                                them for color expertise, art and art-pedagogy
+                                for kids and adults.
                             </p>
                             <p>
                                 <a
                                     className="btn btn-primary knopf"
-                                    href="/images/webEye.png"
+                                    href="mailto:J.Entner@gmx.de"
                                 >
                                     Contact
                                 </a>
@@ -40,16 +42,18 @@ export default class Friends extends Component {
                                 height={100}
                             />
                             <h3>Luezley Sol</h3>
-                            <p>
-                                Upon yielding, kind sea subdue very seed sixth
-                                them lesser one lesser there earth days were
-                                multiply so sixth gathering fifth that man fowl
-                                made.
+                            <p className="friend-text">
+                                A web and print artist based in Sao Paolo,
+                                Brazil. Also designing flyers and grafics for
+                                social media, makes the most graceful, sensitive
+                                illustrations. Partner-designer on the book fair
+                                communication and website of{" "}
+                                <a href="https://fairyfiles.org">Fairyfiles</a>.
                             </p>
                             <p>
                                 <a
                                     className="btn btn-primary knopf"
-                                    href="/images/webEye.png"
+                                    href="mailto:preciosoesmeraldo@gmail.com"
                                 >
                                     Contact
                                 </a>
@@ -64,11 +68,14 @@ export default class Friends extends Component {
                                 height={100}
                             />
                             <h3>Amanda Priebe</h3>
-                            <p>
-                                Upon yielding, kind sea subdue very seed sixth
-                                them lesser one lesser there earth days were
-                                multiply so sixth gathering fifth that man fowl
-                                made.
+                            <p className="friend-text">
+                                Amanda is a printmaker and mixed media artist.
+                                We worked together on various{" "}
+                                <Link to="/print">print design projects</Link>.
+                                Currently based out of Berlin, Germany, her work
+                                can be found in streets and galleries locally
+                                and internationally. Visit her website and
+                                contact her for illustrations.
                             </p>
                             <p>
                                 <a

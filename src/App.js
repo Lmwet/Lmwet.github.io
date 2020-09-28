@@ -2,6 +2,7 @@ import React from "react";
 import Friends from "./components/friends";
 import List from "./components/list";
 import Lmwet from "./components/lmwet";
+import Skills from "./components/skills";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
                 <List></List>
                 <div id="colorlib-main">
                     <Lmwet></Lmwet>
+                    <Skills></Skills>
                     <Friends></Friends>
                 </div>
             </div>

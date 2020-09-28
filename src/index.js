@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import { ParallaxProvider } from "react-scroll-parallax";
 import App from "./App";
+import Me from ".//components/me";
 import Lmwet from "./components/lmwet";
 import Contact from "./components/contact";
 import Nav from "./components/nav";
@@ -23,6 +24,7 @@ ReactDOM.render(
                     <Route exact path="/services" component={Services} />
                     <Route exact path="/print" component={Print} />
                     <Route exact path="/projects" component={Projects} />
+                    <Route exact path="/me" component={Me} />
                 </React.StrictMode>
             </Switch>
             <Contact></Contact>

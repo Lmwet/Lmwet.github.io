@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Parallax } from "react-scroll-parallax";
 
 export default function Services() {
     return (
@@ -8,19 +7,13 @@ export default function Services() {
             <div className="container">
                 <div className="row">
                     <h1 className="page-header">Web Developpement</h1>
-                    <Parallax
-                        className="custom-class"
-                        x={[-50, 20]}
-                        tagOuter="figure"
-                    >
-                        <img
-                            className="img-circle"
-                            src="/images/lmwet.png"
-                            alt=""
-                            width={100}
-                            height={100}
-                        />
-                    </Parallax>
+                    <img
+                        className="img-circle"
+                        src="/images/lmwet.png"
+                        alt=""
+                        width={100}
+                        height={100}
+                    />
                     <div className="col-lg-12">
                         <h3 className="page-header">Front End Code</h3>
                         <em>Single Page Applications</em>
