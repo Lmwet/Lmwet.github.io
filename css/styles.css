@@ -5,6 +5,8 @@
 * {
     font-family: "Audrey";
     font-size: 19px;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -26,6 +28,10 @@ h2 {
 
 h3 {
     font-size: 2em;
+}
+
+h4 {
+    font-size: 1.2em;
 }
 
 li {
@@ -69,7 +75,6 @@ li {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    max-width: 80vw;
     min-height: 100vh;
 }
 
@@ -77,10 +82,10 @@ li {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    max-width: 80vw;
     background-image: url(../images/steps.png);
+    background-repeat: no-repeat;
     background-position: 75% 65%;
-    background-size: 200vh;
+    background-size: cover;
 }
 
 .soft {
@@ -104,7 +109,6 @@ li {
     padding: 1em 1em;
     font-size: 2em;
     color: black;
-    /* background-color: rgba(160, 225, 255, 0.651); */
     border: black dashed 4px;
     border-radius: 20%;
     margin: 2%;
@@ -112,6 +116,9 @@ li {
 
 .languages {
     background-image: url(../images/schmutz.png);
+    max-width: 80vw;
+    background-repeat: repeat;
+    /* background-size: 100vw; */
 }
 
 ul.languages > li {
@@ -123,10 +130,14 @@ ul.languages > li {
     padding: 30px 0;
     text-align: center;
     background-color: rgba(160, 225, 255, 0.651);
-    /* background-image: url(../images/ink.png); */
     background-image: url(../images/schmutz.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100vw;
+}
+
+.lmwet {
+    max-width: 95vw;
+    overflow-x: hidden;
 }
 
 .knopf {
@@ -140,6 +151,10 @@ ul.languages > li {
 
 .footer-blurb-item {
     padding: 30px 0;
+}
+
+.friend-text {
+    padding: 4%;
 }
 
 .copyright {
