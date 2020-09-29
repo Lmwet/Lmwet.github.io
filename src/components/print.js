@@ -7,7 +7,9 @@ import RowA from "./printDesign/rowA";
 export default function Print() {
     return (
         <React.Fragment>
-            <RowA></RowA>
+            <div className="print">
+                <RowA></RowA>
+            </div>
         </React.Fragment>
     );
 }
