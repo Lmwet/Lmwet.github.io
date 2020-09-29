@@ -43,9 +43,9 @@ export default class Friends extends Component {
                             />
                             <h3>Luezley Sol</h3>
                             <p className="friend-text">
-                                A web and print artist based in Sao Paolo,
-                                Brazil. Also designing flyers and grafics for
-                                social media, makes the most graceful, sensitive
+                                A web and print artist based in Brazil. Also
+                                designing flyers and grafics for social media,
+                                makes the most graceful, sensitive
                                 illustrations. Partner-designer on the book fair
                                 communication and website of{" "}
                                 <a href="https://fairyfiles.org">Fairyfiles</a>.

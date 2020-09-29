@@ -3,20 +3,23 @@ import Projectrow from "../projectrow";
 
 export default function RowA() {
     const content = {
-        sectionTitle: "React",
-        titleLeft: "Mews",
-        imageLeft: "/images/mewsPF.png",
-        altLeft: "Mews",
+        sectionTitle: "Flyers",
+        titleLeft: "Berlin action week against femicide",
+        imageLeft: "images/printdesign/flyer_SKB_20_deutsch copy.jpg",
+        altLeft: "action-week-flyer-2020",
         textLeft:
-            "A music web app in React, Express Node JS, Postrgres SQL - Spotify API, and a lot of musical research. Presenting artists for the user to create their playlists and add new tracks to a radio-mix.",
-        urlLeft: "https://m-e-w-s.herokuapp.com/",
+            "2020 edition of the Berlin Action Week, gathering feminists groups of different communities. The figure of the peacok is sacred for Ezidi people, as it represents the Tawsi Melek angel.",
         // titleRight: "Mush Rooms",
-        // imageRight: "/images/MushRoomPF.png",
-        // altRight: "MushRoom",
+        imageRight: "images/printdesign/flyer_SKB_back_deutsch copy.jpg",
+        altRight: "lmwet",
         // textRight:
         //     "A social network for plotting weirdos in React. Search friends, make friends, plot, unfriend.",
         // urlRight: "https://github.io/lmwet/mushrooms",
     };
 
-    return <Projectrow content={content}></Projectrow>;
+    return (
+        <React.Fragment>
+            <Projectrow content={content}></Projectrow>
+        </React.Fragment>
+    );
 }
