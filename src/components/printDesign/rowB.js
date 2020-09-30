@@ -4,13 +4,15 @@ import Projectrow from "../projectrow";
 export default function RowB() {
     const content = {
         sectionTitle: "",
-        titleLeft: "Berlin action week against femicide",
-        imageLeft: "/images/printdesign/bf2019Front.png",
-        altLeft: "action-week-flyer-2019-front",
-        textLeft: "2019 edition.",
-        // titleRight: "Mush Rooms",
-        imageRight: "/images/printdesign/bf2019Back.png",
-        altRight: "lmwet",
+        titleLeft: "Berlin action week against femicide, 2018",
+        imageLeft: "/images/printdesign/bf18.png",
+        altLeft: "action-week-flyer-2018-front",
+        textLeft: "Paintings by Amanda Priebe.",
+        urlLeft: "https://www.amandapriebe.com/",
+        // titleRight:
+        //     "Memorial march for the victims of slavery, colonialism and racism, 2020",
+        // imageRight: "/images/printdesign/mms.png",
+        // altRight: "Memorial-march-flyer",
         // textRight:
         //     "A social network for plotting weirdos in React. Search friends, make friends, plot, unfriend.",
         // urlRight: "https://github.io/lmwet/mushrooms",
