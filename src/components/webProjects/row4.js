@@ -8,12 +8,13 @@ export default function Row4() {
         imageLeft: "/images/ff.png",
         altLeft: "Fairyfiles-logo",
         textLeft:
-            "A website with a CMS in PHP, with a JQuerish API: Processwire. Illustrations and design in collaboration with Luezlez Sol.",
+            "A website with a very userfriendly and opensource Content Management System: Processwire. written in PHP, its API is very accessible to JQuery developpers. Illustrations and design made in collaboration with Luezlez Sol.",
         urlLeft: "https://fairyfiles.org/",
         titleRight: "Reproduktive Gerechtigkeit",
         imageRight: "/images/repro.png",
         altRight: "Reproduktive-Gerechtigkeit",
-        textRight: "A wordpress website with its own personal theme.",
+        textRight:
+            "A wordpress website commissionned by the Heinrich Böhl Stiftung. A very slick design and based on its own wordpress theme. Logo also created by Lmwet.",
         urlRight: "https://repro-gerechtigkeit.de/",
     };
 

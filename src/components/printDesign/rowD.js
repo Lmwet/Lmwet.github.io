@@ -7,7 +7,7 @@ export default function RowD() {
         titleLeft: "Dar Sudan,  دار سودان",
         imageLeft: "images/printdesign/darsudan_logo.png",
         altLeft: "logo-darsudan",
-        urlLeft: "logo-darsudan",
+        urlLeft: "images/printdesign/darsudan_logo.png",
         textLeft:
             "Logo for a collective of Sudanese Feminists based in Berlin. Vector image.",
         titleRight: "Solo Pajaros",

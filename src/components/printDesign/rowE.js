@@ -7,13 +7,15 @@ export default function RowE() {
         titleLeft: "Berlin Beirut Solidarity",
         imageLeft: "images/printdesign/bbs.png",
         altLeft: "logo-berlin-beirut-solidarritaet",
-        urlLeft: "",
+        urlLeft:
+            "https://www.etsy.com/shop/BerlinBeirutSoli?ref=simple-shop-header-name&listing_id=859481935",
         textLeft:
-            "Logo for a campaign in reaction to the explosion in Beirut harbor. Vector image.",
+            "Logo for a campaign in reaction to the explosion in Beirut harbor on 5.08,2020. Vector image.",
         titleRight: "Reproduktive Gerechtigkeit",
         imageRight: "images/printdesign/logo_repro.png",
         altRight: "logo reproduktive Gerechtigkeit",
-        textRight: "Vector image.",
+        textRight:
+            "A logo made for a network for reproductive rights in Germany. Vector image.",
         urlRight: "https://repro-gerechtigkeit.de/",
     };
 

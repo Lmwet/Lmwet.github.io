@@ -35,24 +35,40 @@ export default class Nav extends Component {
                         >
                             <ul className="nav navbar-nav">
                                 <li>
-                                    <Link className="nav-link" to="/services">
+                                    <Link
+                                        // data-toggle="collapse"
+                                        // data-target=".navbar-collapse"
+                                        to="/services"
+                                    >
                                         Services
                                     </Link>
                                 </li>
                                 <li className="nav-link">
-                                    <Link className="nav-link" to="/projects">
+                                    <Link
+                                        // data-toggle="collapse"
+                                        // data-target=".navbar-collapse"
+                                        to="/projects"
+                                    >
                                         Projects
                                     </Link>
                                 </li>
                                 <li className="nav-link">
-                                    <Link className="nav-link" to="/print">
+                                    <Link
+                                        // data-toggle="collapse"
+                                        // data-target=".navbar-collapse"
+                                        to="/print"
+                                    >
                                         Print Design
                                     </Link>
                                 </li>
                             </ul>
                             <ul className="nav navbar-nav navbar-right">
                                 <li className="nav-link">
-                                    <Link className="nav-link" to="/me">
+                                    <Link
+                                        // data-toggle="collapse"
+                                        // data-target=".navbar-collapse"
+                                        to="/me"
+                                    >
                                         Contact
                                     </Link>
                                 </li>

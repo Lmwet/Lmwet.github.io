@@ -7,7 +7,7 @@ export default function RowF() {
         titleLeft: "Banner for the Kurdish Feminist Movement",
         imageLeft: "images/printdesign/bannerLeila.png",
         altLeft: "Banner-Leila-Gueven",
-        urlLeft: "",
+        urlLeft: "images/printdesign/bannerLeila.png",
         textLeft:
             "Banner for the 8th of March 2019. Printed in 9/1.5 meters and used in various cities in Europe.",
         titleRight: "Illustrations for the Xwebun magazine",

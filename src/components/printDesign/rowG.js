@@ -7,13 +7,13 @@ export default function RowG() {
         titleLeft: "Stickers for social medias",
         imageLeft: "images/printdesign/meditation.png",
         altLeft: "Meditation-sticker",
-        urlLeft: "",
+        urlLeft: "images/printdesign/meditation.png",
         textLeft: "Item from a private whatsapp sticker set.",
-        titleRight: "Label for the chili brand Tipare",
+        titleRight: "Label for the Tipare chili brand",
         imageRight: "images/printdesign/tipare.png",
         altRight: "label-tipare-chili",
         textRight: "Background-motive from a traditional cloath Burkina Faso",
-        urlRight: "",
+        urlRight: "images/printdesign/tipare.png",
     };
 
     return (

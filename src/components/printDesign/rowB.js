@@ -7,8 +7,9 @@ export default function RowB() {
         titleLeft: "Berlin action week against femicide, 2018",
         imageLeft: "/images/printdesign/bf18.png",
         altLeft: "action-week-flyer-2018-front",
-        textLeft: "Paintings by Amanda Priebe.",
-        urlLeft: "https://www.amandapriebe.com/",
+        textLeft:
+            "First edition of the Action Week against Femicide and Sexualised Violence. Paintings by Amanda Priebe.",
+        urlLeft: "/images/printdesign/bf18.png",
         // titleRight:
         //     "Memorial march for the victims of slavery, colonialism and racism, 2020",
         // imageRight: "/images/printdesign/mms.png",

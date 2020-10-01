@@ -6,8 +6,9 @@ export default function Row5() {
         sectionTitle: "HTML CSS JS",
         titleLeft: "The Irksome Institute",
         imageLeft: "/images/ii.png",
-        altLeft: "the-irksome",
-        textLeft: "An entirely hand-coded project. Tag by tag, rule by rule.",
+        altLeft: "the-irksome-institute",
+        textLeft:
+            "An entirely hand-coded project presenting the work of a young publishing collective. Logo also designed by Lmwet.",
         urlLeft: "https://theirksome.de/",
         titleRight: "",
         imageRight: "",

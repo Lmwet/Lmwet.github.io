@@ -8,14 +8,14 @@ export default function Row2() {
         imageLeft: "/images/mewsPF.png",
         altLeft: "Mews",
         textLeft:
-            "A music web app in React, Express Node JS, Postrgres SQL - Spotify API, and a lot of musical research. Presenting artists for the user to create their playlists and add new tracks to a radio-mix.",
+            "A music web app in React, with an Express Node JS server, using the Spotify API, and long hours of musical research. Presenting artists and lists of tracks for the user to publish and play their personalized playlists and add new tracks to a radio-mix.",
         urlLeft: "https://m-e-w-s.herokuapp.com/",
-        titleRight: "Mush Rooms",
+        titleRight: "MushRoom",
         imageRight: "/images/MushRoomPF.png",
         altRight: "MushRoom",
         textRight:
-            "A social network for plotting weirdos in React. Search friends, make friends, plot, unfriend.",
-        urlRight: "https://github.io/lmwet/mushrooms",
+            "A fantasy social network to plot in real time and represent your cause, written in React, using web sockets and a native node JS server. Search for allies, make friends, write on their walls, update infos, plot, reset your password and of course, delete your account after use.",
+        urlRight: "https://mushrooom.herokuapp.com/",
     };
 
     return <Projectrow content={content}></Projectrow>;

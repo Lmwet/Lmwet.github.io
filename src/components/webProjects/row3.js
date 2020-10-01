@@ -14,7 +14,7 @@ export default function Row3() {
         imageRight: "/images/EastRiverPark.png",
         altRight: "",
         textRight:
-            "A petition app in handlebars. Create an account, signe, add info to profile, unsigne the petition.",
+            "A petition app in handlebars and node. Create an account, signe, add info to profile, unsigne the petition and check how many of us want the park to remain.",
         urlRight: "http://petition-east-river-park-lmwet.herokuapp.com/",
     };
 
