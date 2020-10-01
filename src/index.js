@@ -11,9 +11,11 @@ import Services from "./components/services";
 import Print from "./components/print.js";
 import Projects from "./components/projects";
 import * as serviceWorker from "./serviceWorker";
+import ScrollToTop from "./scrolltotop";
 
 ReactDOM.render(
     <HashRouter>
+        <ScrollToTop />
         <Nav></Nav>
         <ParallaxProvider>
             <Switch>

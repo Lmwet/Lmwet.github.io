@@ -4,7 +4,7 @@ import List from "./components/list";
 import Lmwet from "./components/lmwet";
 import Skills from "./components/skills";
 
-function App() {
+export default function App() {
     return (
         <div id="colorlib-page">
             <div id="container-wrap">
@@ -18,5 +18,3 @@ function App() {
         </div>
     );
 }
-
-export default App;

@@ -35,18 +35,26 @@ export default class Nav extends Component {
                         >
                             <ul className="nav navbar-nav">
                                 <li>
-                                    <Link to="/services">Services</Link>
+                                    <Link className="nav-link" to="/services">
+                                        Services
+                                    </Link>
                                 </li>
-                                <li>
-                                    <Link to="/projects">Projects</Link>
+                                <li className="nav-link">
+                                    <Link className="nav-link" to="/projects">
+                                        Projects
+                                    </Link>
                                 </li>
-                                <li>
-                                    <Link to="/print">Print Design</Link>
+                                <li className="nav-link">
+                                    <Link className="nav-link" to="/print">
+                                        Print Design
+                                    </Link>
                                 </li>
                             </ul>
                             <ul className="nav navbar-nav navbar-right">
-                                <li>
-                                    <Link to="/me">Contact</Link>
+                                <li className="nav-link">
+                                    <Link className="nav-link" to="/me">
+                                        Contact
+                                    </Link>
                                 </li>
                             </ul>
                         </div>

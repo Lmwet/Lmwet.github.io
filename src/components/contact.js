@@ -9,14 +9,14 @@ export default class Contact extends Component {
                     <a href="mailto:lea.colson@gmail.com">
                         {" "}
                         <span
-                            class="glyphicon glyphicon-envelope"
+                            className="glyphicon glyphicon-envelope"
                             aria-hidden="true"
                         ></span>{" "}
                         Write me
                     </a>
                     <p>
                         <span
-                            class="
+                            className="
                     glyphicon glyphicon-copyright-mark"
                         ></span>{" "}
                         Lea Colson 2020

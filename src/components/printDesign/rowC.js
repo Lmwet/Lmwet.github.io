@@ -8,13 +8,14 @@ export default function RowC() {
             "Memorial march for the victims of slavery, colonialism and racism, 2020",
         imageLeft: "/images/printdesign/mms.png",
         altLeft: "Memorial-march-flyer",
-        urlLeft: "https://m-e-w-s.herokuapp.com/",
-        // titleRight: "Mush Rooms",
-        // imageRight: "/images/printdesign/bf18Back.png",
-        // altRight: "lmwet",
-        // textRight:
-        //     "A social network for plotting weirdos in React. Search friends, make friends, plot, unfriend.",
-        // urlRight: "https://github.io/lmwet/mushrooms",
+        urlLeft:
+            "https://www.theafricancourier.de/europe/african-victims-of-slavery-colonialism-remembered-in-berlin/",
+        titleRight: "Queeres Verlegen 2019",
+        imageRight: "/images/printdesign/flyerQV19.png",
+        altRight: "flyer-queeres-verlegen",
+        textRight:
+            "Commissionned by the Fairyfiles team for the yearly queer bookfair in november 2019. In cooperation with Luezley Sol. Horizontal half-A3 format.",
+        urlRight: "https://fairyfiles.org/archive/",
     };
 
     return <Projectrow content={content}></Projectrow>;

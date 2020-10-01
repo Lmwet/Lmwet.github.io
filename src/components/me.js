@@ -1,5 +1,4 @@
 import React from "react";
-import Lmwet from "./lmwet";
 
 export default function Me() {
     return (

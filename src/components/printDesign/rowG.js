@@ -8,11 +8,11 @@ export default function RowG() {
         imageLeft: "images/printdesign/meditation.png",
         altLeft: "Meditation-sticker",
         urlLeft: "",
-        textLeft: "Whatsapp sticker set.",
+        textLeft: "Item from a private whatsapp sticker set.",
         titleRight: "Label for the chili brand Tipare",
         imageRight: "images/printdesign/tipare.png",
         altRight: "label-tipare-chili",
-        textRight: "Background-motive from Burkina Faso",
+        textRight: "Background-motive from a traditional cloath Burkina Faso",
         urlRight: "",
     };
 
