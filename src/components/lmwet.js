@@ -11,11 +11,11 @@ export default function Lmwet() {
         altLeft: "lmwet",
         textLeft: "",
         urlLeft: "https://github.com/lmwet/",
-        titleRight: "",
-        imageRight: "",
-        altRight: "",
-        textRight: "",
-        urlRight: "",
+        // titleRight: "",
+        // imageRight: "",
+        // altRight: "",
+        // textRight: "",
+        // urlRight: "",
     };
 
     return (
