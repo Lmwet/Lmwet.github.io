@@ -6,17 +6,19 @@ import App from "./App";
 import Me from ".//components/me";
 import Lmwet from "./components/lmwet";
 import Contact from "./components/contact";
-import Nav from "./components/nav";
+import Navtop from "./components/nav";
 import Services from "./components/services";
 import Print from "./components/print.js";
 import Projects from "./components/projects";
 import * as serviceWorker from "./serviceWorker";
 import ScrollToTop from "./scrolltotop";
 
+// import "bootstrap/dist/css/bootstrap.min.css";
+
 ReactDOM.render(
     <HashRouter>
         <ScrollToTop />
-        <Nav></Nav>
+        <Navtop></Navtop>
         <ParallaxProvider>
             <Switch>
                 <React.StrictMode>

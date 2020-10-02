@@ -37,13 +37,24 @@ h4 {
 li {
     list-style: none;
 }
-
+#toggle-button {
+    float: right;
+    color: rgb(214, 214, 214);
+    /* height: 50px; */
+    margin: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
 .navbar-inverse .navbar-brand {
     color: rgba(160, 225, 255, 0.651);
 }
 
-.navbar-inverse .navbar-nav > li > a {
+.nav-link {
     color: rgb(214, 214, 214);
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
 }
 
 .portfolio-item {

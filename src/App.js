@@ -6,13 +6,15 @@ import Skills from "./components/skills";
 
 export default function App() {
     return (
-        <div id="colorlib-page">
-            <div id="container-wrap">
-                <List></List>
-                <div id="colorlib-main">
-                    <Lmwet></Lmwet>
-                    <Skills></Skills>
-                    <Friends></Friends>
+        <div id="me">
+            <div id="colorlib-page">
+                <div id="container-wrap">
+                    <List></List>
+                    <div id="colorlib-main">
+                        <Lmwet></Lmwet>
+                        <Skills></Skills>
+                        <Friends></Friends>
+                    </div>
                 </div>
             </div>
         </div>

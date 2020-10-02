@@ -12,7 +12,7 @@ import RowH from "./printDesign/rowH";
 export default function Print() {
     return (
         <React.Fragment>
-            <div className="print">
+            <div id="print" className="print">
                 <RowA></RowA>
                 <RowB></RowB>
                 <RowC></RowC>

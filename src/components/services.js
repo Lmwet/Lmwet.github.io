@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Services() {
     return (
-        <div className="footer-blurb">
+        <div id="services" className="footer-blurb">
             <div className="container">
                 <div className="row">
                     <h1 className="page-header">Web Developpement</h1>

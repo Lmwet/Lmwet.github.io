@@ -36,8 +36,8 @@ export default class Nav extends Component {
                             <ul className="nav navbar-nav">
                                 <li>
                                     <Link
-                                        // data-toggle="collapse"
-                                        // data-target="#bs-example-navbar-collapse-1"
+                                        data-toggle="collapse"
+                                        data-target="#bs-example-navbar-collapse-1"
                                         to="/services"
                                     >
                                         Services
@@ -45,8 +45,8 @@ export default class Nav extends Component {
                                 </li>
                                 <li>
                                     <Link
-                                        // data-toggle="collapse"
-                                        // data-target="#bs-example-navbar-collapse-1"
+                                        data-toggle="collapse"
+                                        data-target="#bs-example-navbar-collapse-1"
                                         to="/projects"
                                     >
                                         Projects
@@ -54,8 +54,8 @@ export default class Nav extends Component {
                                 </li>
                                 <li>
                                     <Link
-                                        // data-toggle="collapse"
-                                        // data-target="#bs-example-navbar-collapse-1"
+                                        data-toggle="collapse"
+                                        data-target="#bs-example-navbar-collapse-1"
                                         to="/print"
                                     >
                                         Print Design
@@ -65,8 +65,8 @@ export default class Nav extends Component {
                             <ul className="nav navbar-nav navbar-right">
                                 <li>
                                     <Link
-                                        // data-toggle="collapse"
-                                        // data-target="#bs-example-navbar-collapse-1"
+                                        data-toggle="collapse"
+                                        data-target="#bs-example-navbar-collapse-1"
                                         to="/me"
                                     >
                                         Contact

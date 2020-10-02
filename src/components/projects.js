@@ -7,10 +7,12 @@ import Row5 from "./webProjects/row5";
 export default function Project() {
     return (
         <React.Fragment>
-            <Row2></Row2>
-            <Row3></Row3>
-            <Row4></Row4>
-            <Row5></Row5>
+            <div id="projects">
+                <Row2></Row2>
+                <Row3></Row3>
+                <Row4></Row4>
+                <Row5></Row5>
+            </div>
         </React.Fragment>
     );
 }
