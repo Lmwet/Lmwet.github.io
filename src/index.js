@@ -13,8 +13,6 @@ import Projects from "./components/projects";
 import * as serviceWorker from "./serviceWorker";
 import ScrollToTop from "./scrolltotop";
 
-// import "bootstrap/dist/css/bootstrap.min.css";
-
 ReactDOM.render(
     <HashRouter>
         <ScrollToTop />

@@ -10,13 +10,12 @@ export default function RowB() {
         textLeft:
             "First edition of the Action Week against Femicide and Sexualised Violence. Paintings by Amanda Priebe.",
         urlLeft: "/images/printdesign/bf18.png",
-        // titleRight:
-        //     "Memorial march for the victims of slavery, colonialism and racism, 2020",
-        // imageRight: "/images/printdesign/mms.png",
-        // altRight: "Memorial-march-flyer",
-        // textRight:
-        //     "A social network for plotting weirdos in React. Search friends, make friends, plot, unfriend.",
-        // urlRight: "https://github.io/lmwet/mushrooms",
+        titleRight: "Patriarchy is violence, an event by Dar Sudan",
+        imageRight: "/images/printdesign/unf.png",
+        altRight: "Patriarchal-violence-sudan-flyer",
+        textRight:
+            "A multi-media event about the resistance against patriarchal violence in Sudan.",
+        urlRight: "/images/printdesign/unf.png",
     };
 
     return <Projectrow content={content}></Projectrow>;

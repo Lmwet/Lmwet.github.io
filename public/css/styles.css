@@ -19,6 +19,11 @@ a link {
     cursor: pointer;
     font-size: 2em;
 }
+a:focus,
+a:hover {
+    color: white;
+    text-decoration: none;
+}
 
 h2 {
     font-size: 2em;
@@ -37,24 +42,24 @@ h4 {
 li {
     list-style: none;
 }
-#toggle-button {
-    float: right;
-    color: rgb(214, 214, 214);
-    /* height: 50px; */
-    margin: 15px 15px;
-    font-size: 18px;
-    line-height: 20px;
-}
-.navbar-inverse .navbar-brand {
-    color: rgba(160, 225, 255, 0.651);
-}
 
 .nav-link {
-    color: rgb(214, 214, 214);
-    height: 50px;
-    padding: 15px 15px;
-    font-size: 18px;
-    line-height: 20px;
+    padding: 5px 20px;
+    color: rgba(250, 252, 255, 0.651);
+}
+
+.show div {
+    padding-top: 60px;
+}
+
+.show .nav-link {
+    display: block;
+    padding-top: 10px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: rgba(160, 225, 255, 0.651);
+    /* display: block;  */
 }
 
 .portfolio-item {
@@ -64,9 +69,8 @@ li {
 }
 
 .img-responsive {
-    min-height: 40vh;
-    padding-bottom: 10vh;
     border-bottom: 3px black solid;
+    /* min-height: 25vh; */
 }
 
 .white-space {
@@ -129,7 +133,7 @@ li {
     background-image: url(../images/schmutz.png);
     max-width: 80vw;
     background-repeat: repeat;
-    /* background-size: 100vw; */
+    /* background-size: 100vw;   */
 }
 
 ul.languages > li {

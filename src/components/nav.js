@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-export default class Nav extends Component {
+export default class Navtop extends Component {
     render() {
         return (
             <div>
@@ -37,7 +37,7 @@ export default class Nav extends Component {
                                 <li>
                                     <Link
                                         data-toggle="collapse"
-                                        data-target="#bs-example-navbar-collapse-1"
+                                        data-target="#bs-example-navbar-collapse-1.navbar-collapse.collapse.in"
                                         to="/services"
                                     >
                                         Services
@@ -46,7 +46,7 @@ export default class Nav extends Component {
                                 <li>
                                     <Link
                                         data-toggle="collapse"
-                                        data-target="#bs-example-navbar-collapse-1"
+                                        data-target="#bs-example-navbar-collapse-1.navbar-collapse.collapse.in"
                                         to="/projects"
                                     >
                                         Projects
@@ -55,7 +55,7 @@ export default class Nav extends Component {
                                 <li>
                                     <Link
                                         data-toggle="collapse"
-                                        data-target="#bs-example-navbar-collapse-1"
+                                        data-target="#bs-example-navbar-collapse-1.navbar-collapse.collapse.in"
                                         to="/print"
                                     >
                                         Print Design
@@ -66,7 +66,7 @@ export default class Nav extends Component {
                                 <li>
                                     <Link
                                         data-toggle="collapse"
-                                        data-target="#bs-example-navbar-collapse-1"
+                                        data-target="#bs-example-navbar-collapse-1.navbar-collapse.collapse.in"
                                         to="/me"
                                     >
                                         Contact
