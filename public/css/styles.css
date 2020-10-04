@@ -18,6 +18,7 @@ body {
 a link {
     cursor: pointer;
     font-size: 2em;
+    color: rgba(160, 225, 255, 0.651);
 }
 a:focus,
 a:hover {

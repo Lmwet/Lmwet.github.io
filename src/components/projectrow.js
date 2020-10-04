@@ -21,7 +21,7 @@ export default function Projectrow({ content }) {
                 </div>
 
                 <div className="col-md-6 portfolio-item">
-                    <a href="https://m-e-w-s.herokuapp.com/">
+                    <a href={content.urlRight}>
                         <img
                             id={content.altRight}
                             className="img-responsive"
