@@ -83,9 +83,6 @@ if (typeof jQuery === "undefined") {
     });
 })(jQuery);
 
-$(".nav-link").on("click", function () {
-    $(".navbar-collapse").collapse("hide");
-});
 
 /* ========================================================================
  * Bootstrap: alert.js v3.3.5
