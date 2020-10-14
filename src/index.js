@@ -14,25 +14,25 @@ import * as serviceWorker from "./serviceWorker";
 import ScrollToTop from "./scrolltotop";
 
 ReactDOM.render(
-    <HashRouter>
-        <ScrollToTop />
-        <Navtop></Navtop>
-        <ParallaxProvider>
-            <Switch>
-                <React.StrictMode>
-                    <Route exact path="/" component={App} />
-                    <Route exact path="/lmwet" component={Lmwet} />
-                    <Route exact path="/contact" component={Contact} />
-                    <Route exact path="/services" component={Services} />
-                    <Route exact path="/print" component={Print} />
-                    <Route exact path="/projects" component={Projects} />
-                    <Route exact path="/me" component={Me} />
-                </React.StrictMode>
-            </Switch>
-            <Contact></Contact>
-        </ParallaxProvider>
-    </HashRouter>,
+  <HashRouter>
+    <ScrollToTop />
+    <Navtop></Navtop>
+    <ParallaxProvider>
+      <Switch>
+        <React.StrictMode>
+          <Route exact path="/" component={App} />
+          <Route exact path="/lmwet" component={Lmwet} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/services" component={Services} />
+          <Route exact path="/print" component={Print} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/me" component={Me} />
+        </React.StrictMode>
+      </Switch>
+      <Contact></Contact>
+    </ParallaxProvider>
+  </HashRouter>,
 
-    document.getElementById("root")
+  document.getElementById("root")
 );
 serviceWorker.unregister();
