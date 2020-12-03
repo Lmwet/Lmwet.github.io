@@ -86,7 +86,8 @@ export default function Skills() {
             <li>French (mother tongue)</li>
             <li>Spanish (fluent)</li>
             <li>
-              عَرَبِيّ‎ (Arabic, basics of lavantin dialect, reading, writing)
+              عَرَبِيّ‎ (Arabic, basics of levantine dialect and fussha,
+              reading, writing)
             </li>
           </ul>
         </div>

@@ -225,6 +225,10 @@ ul.languages > li {
   padding: 4%;
 }
 
+#contactme {
+  min-height: 100vh;
+}
+
 .copyright {
   background-color: #fff;
   text-align: center;
