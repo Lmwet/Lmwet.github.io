@@ -4,9 +4,10 @@
 }
 * {
   font-family: "Audrey";
-  font-size: 19px;
+  font-size: 21px;
   margin: 0;
   box-sizing: border-box;
+  line-height: 2em;
 }
 
 body {

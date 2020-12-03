@@ -92,6 +92,8 @@ export default function Skills() {
         </div>
 
         {/* Skills */}
+
+        {/* Skills */}
         <div className="languages">
           <div className="white-space"></div>
 
@@ -100,14 +102,18 @@ export default function Skills() {
           </h3>
           <div className="row">
             <div className="col-sm-4">
-              <h4>Project management // Team work</h4>
+              <h4>Project management </h4>
               <img
                 className="img-circle"
                 src="/images/manitas.png"
                 alt=""
-                width={300}
+                width={200}
                 height={200}
               />
+              <p className="friend-text">
+                Working in a healthy environment is a bless. Team work relies on
+                good communication and transparency.
+              </p>
             </div>
 
             <div className="col-sm-4">
@@ -119,6 +125,9 @@ export default function Skills() {
                 width={200}
                 height={200}
               />
+              <p className="friend-text">
+                Teaching is learning. I love to learn new words and new worlds.
+              </p>
             </div>
 
             <div className="col-sm-4">
@@ -130,6 +139,10 @@ export default function Skills() {
                 width={200}
                 height={200}
               />
+              <p className="friend-text">
+                Weekend is on! Football and music. Playing accordion as an urban
+                secret garden.
+              </p>
             </div>
           </div>
           <div className="white-space"></div>
