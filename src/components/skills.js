@@ -19,9 +19,9 @@ export default function Skills() {
                 React <span>Hooks Router Redux</span>
               </li>
             </Link>
-            <li className="word">Node JS </li>
+            <li className="word">Node JS</li>
             <Link to="/projects">
-              <li className="word2">View JS</li>
+              <li className="word2">Vue JS</li>
             </Link>
             <Link to="/projects">
               <li className="word2">ProcessWire CMS</li>
@@ -42,25 +42,30 @@ export default function Skills() {
           <h3 className="cv-title" x={40}>
             Professional experience
           </h3>
-          <ul className="experience">
-            <li>Lmwet studied philosophy and law in Paris.</li>
-            <li>
-              In Berlin, she has been a{" "}
+          <ul>
+            <li className="experience">
+              2019 until now: Lea Colson is a <em>free-lance web developper</em>{" "}
+              since 2019. In January 2020 she joined a cohort at{" "}
+              <a href="https://www.spiced-academy.com">Spiced Academy</a> Web
+              Full-Stack Bootcamp.
+            </li>
+            <li className="experience">
+              <em>Project coordinator</em> at{" "}
+              <a href="https://www.damigra.de/">DaMigra e.V.</a>. Management of
+              the local branch of MUT Project, coordination of the Berlin
+              network and administrative tasks for the activities of migrant
+              women supporting refugee women in their economical and political
+              developpement.
+            </li>
+            <li className="experience">
+              After her arrival in Berlin, she has been a{" "}
               <em>language teacher and interpreter</em> for German, English and
               French languages.{" "}
             </li>
-            <li>
-              With a passion for social justice, she became active in various
-              collective adventures and worked as a <em>project coordinator</em>{" "}
-              in an NGO: <a href="https://www.damigra.de/">DaMigra e.V.</a>.
+            <li className="experience">
+              Lmwet studied philosophy and law in Paris.
             </li>
-            <li>
-              She discovered coding on her own, started to free lance as a
-              <em>web-designer</em> in 2018 until she joined a cohort at{" "}
-              <a href="https://www.spiced-academy.com">Spiced Academy</a> in
-              January 2020.
-            </li>
-            <li>
+            <li className="experience">
               Researching, learning new skills and new languages independantly
               has always been an important part of her ongoing creative
               processes. Noticeably ending up nourishing a rich professional
