@@ -255,7 +255,6 @@ ul.languages > li {
   background-repeat: no-repeat;
   filter: opacity(0.8);
 }
-.copyright {
 
 .copyright {
   background-color: #fff;
@@ -283,5 +282,24 @@ ul.languages > li {
     background-color: rgba(255, 255, 255, 0.767);
     border: black dashed 4px;
     border-radius: 10%;
+  }
+  #contactme {
+    display: flex;
+    flex-grow: 1;
+    flex-flow: column wrap;
+    align-items: left;
+    justify-content: flex-start;
+  }
+  #contactme > a {
+    font-size: 0.3em;
+  }
+  #lmwet {
+    height: 8vh;
+  }
+  #black-blob {
+    align-self: left;
+  }
+  #white-blob {
+    align-self: center;
   }
 }
